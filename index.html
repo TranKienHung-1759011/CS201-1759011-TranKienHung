@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- This is the CS201 Web Dev 1 final. Your task is to make a responsive e-commerce site using
+  BS4 as your CSS front end framework and load products from the FakeStore API (linked below) -->
+  <!-- FakeStoreAPI end point: https://fakestoreapi.com/products -->
+  <h1>Anyeong World</h1>
+
+
+<div class="container-fuild">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <a class="navbar-brand"><i class="fas fa-clock fa-2x"></i>Watches</a>
+    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="my-nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Women's</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Men's </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+              Unisex
+          </a>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Product 1</a>
+              <a class="dropdown-item" href="#">Product 2</a>
+              <a class="dropdown-item" href="#">Another Product</a>
+          </div>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Unisex </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div id="banner" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div id="c1" class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/fix banner-example.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/fix banner-example.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/fix banner-example.jpg">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#banner" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#banner" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div class="sales mt-5 ml-auto mr-auto">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="/images/examplebanner.jpg" alt="Lights" style="width:100%">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="/images/examplebanner.jpg" alt="Lights" style="width:100%">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="/images/examplebanner.jpg" alt="Lights" style="width:100%">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-5 staff-section">
+  <h2 class="font-weight-light">NewProducts</h2>
+  <hr>
+  <div class="row items">
+
+  </div>
+</div>
+
+
+<div class="transaction mt-5">
+  <div class="row align-items-center">
+    <div class="col-sm-12 col-md-4 text-sm-center text-md-center text-lg-center  mx-auto">
+        <div class="card justify-content-center">
+          <i class="fas fa-arrows-alt-h fa-3x"></i>
+          <h3>Fast and free delivery</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+     
+        </div>
+    </div>
+
+    <div class="col-sm-12 col-md-4 text-sm-center text-md-center text-lg-center  mx-auto">
+      <div class="card justify-content-center">
+        <i class="fas fa-arrows-alt-h fa-3x"></i>
+        <h3>100%money back guarantee</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-4 text-sm-center text-md-center text-lg-center  mx-auto">
+      <div class="card justify-content-center">
+        <i class="fas fa-arrows-alt-h fa-3x"></i>
+        <h3>Safe and secure payment</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#multi-item-example" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+    <!--/.Controls-->
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+      <li data-target="#multi-item-example" data-slide-to="1"></li>
+      <li data-target="#multi-item-example" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div id="c2" class="carousel-inner" role="listbox">
+      <h1 id="manu">Manufacturers</h1>
+      <!--First slide-->
+      <div class="carousel-item active">
+
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/images/1.png" alt="">
+          </div>
+
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <img src="/images/1.png" alt="">
+          </div>
+
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <img src="/images/1.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!--/.First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/images/1.png" alt="">
+          </div>
+
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <img src="/images/1.png" alt="">
+          </div>
+
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <img src="/images/1.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!--/.Second slide-->
+
+     
+      <!--/.Third slide-->
+
+    </div>
+    <!--/.Slides-->
+
+  </div>
+
+
+<footer class="container-fluid mt-5">
+  <div class="container-fluid">
+
+    <div class="row">
+        <div class="col mt-5">
+          <h3 class="mb-4">Information</h3>
+
+          <ul class="nav flex-column nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link " href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">customer</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Template</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy</a>
+              </li>
+          </ul>
+        </div>
+        <div class="col mt-5">
+          <h3 class="mb-4">Information</h3>
+
+          <ul class="nav flex-column nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link " href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">customer</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Template</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy</a>
+              </li>
+          </ul>
+        </div>
+        <div class="col mt-5">
+          <h3 class="mb-4">Information</h3>
+
+          <ul class="nav flex-column nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link " href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">customer</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Template</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy</a>
+              </li>
+          </ul>
+        </div>
+        <div class="col mt-5">
+          <h3 class="mb-4">Information</h3>
+
+          <ul class="nav flex-column nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link " href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">customer</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Template</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy</a>
+              </li>
+          </ul>
+        </div>
+        <div class="col mt-5">
+          <h3 class="mb-4">Information</h3>
+
+          <ul class="nav flex-column nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link " href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">customer</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Template</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy</a>
+              </li>
+          </ul>
+        </div>
+    </div>
+    <hr>
+
+</div>
+
+</footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="staticcatalog.js" charset="utf-8"></script>
+</body>
+</html>

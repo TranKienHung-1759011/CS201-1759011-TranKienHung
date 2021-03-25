@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(238, 234, 234);
+}
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+#my-nav ul li a{
+  color: rgb(4,186,210);
+}
+.fa-clock{
+  color: rgb(4,186,210);
+}
+#c1.carousel-inner{
+background-color:rgb(4,186,210);
+}
+.carousel-inner img {
+
+  margin-left: 185px;
+
+}
+/*---Firefox Bug Fix --*/
+.carousel-item {
+transition: -webkit-transform 0.5s ease;
+transition: transform 0.5s ease;
+transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+-webkit-backface-visibility: visible;
+backface-visibility: visible;
+}
+.transaction .row div div.card{
+  height: 200px;
+  background-color: rgb(4,186,210);
+  color: white;
+
+}
+.transaction .row div div.card p{
+font-size: 12px;
+  
+}
+.card{
+  display:flex;flex-direction:column
+}
+
+.sales{
+  width: 75%;
+}
+
+footer.container-fluid {
+  background: rgb(255, 255, 255);
+  box-shadow: 
+  inset 0px 11px 8px -10px #CCC; 
+}
+
+.profile img{
+  height:200px;
+  width: 200px;
+}
+#manu{
+  justify-self: center;
+}
